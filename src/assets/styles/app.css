@@ -11175,6 +11175,7 @@ body.modal-open .modal.show .modal-dialog {
     -moz-background-size: cover;
     background-size: cover;
     padding: 3rem 0;
+    background-color: #f1f2f7;
 }
 .form-membership .form-wrapper {
     background-color: #fff;

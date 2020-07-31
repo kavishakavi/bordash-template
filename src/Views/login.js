@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import LogoPNG from '../assets/media/image/logo.png'
 import { Link } from 'react-router-dom'
 import SocialButtons from '../components/SocialButtons'
@@ -14,7 +13,7 @@ export class login extends Component {
                     <div className="preloader-icon"></div>
                 </div> */}
 
-                <div className="form-wrapper" style={{backgroundColor: '#f0e8e8'}}>
+                <div className="form-wrapper">
                     <div id="logo">
                         <img className="logo" src={LogoPNG} alt="image" />
                         {/* <img className="logo-dark" src="assets/media/image/logo-dark.html" alt="image" /> */}
