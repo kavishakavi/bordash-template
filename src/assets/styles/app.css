@@ -1228,10 +1228,10 @@
  */
 @font-face {
     font-family: FontAwesome;
-    src: url(../icons/font-awesome/fonts/fontawesome-webfont3e6e.eot?v=4.7.0);
-    src: url(../icons/font-awesome/fonts/fontawesome-webfontd41d.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../icons/font-awesome/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0) format("woff2"),
-        url(../icons/font-awesome/fonts/fontawesome-webfont3e6e.woff?v=4.7.0) format("woff"), url(../icons/font-awesome/fonts/fontawesome-webfont3e6e.ttf?v=4.7.0) format("truetype"),
-        url(../icons/font-awesome/fonts/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular) format("svg");
+    src: url(../fonts/font-awesome/fontawesome-webfont3e6e.eot?v=4.7.0);
+    src: url(../fonts/font-awesome/fontawesome-webfontd41d.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../fonts/font-awesome/fontawesome-webfont3e6e.woff2?v=4.7.0) format("woff2"),
+        url(../fonts/font-awesome/fontawesome-webfont3e6e.woff?v=4.7.0) format("woff"), url(../fonts/font-awesome/fontawesome-webfont3e6e.ttf?v=4.7.0) format("truetype"),
+        url(../fonts/font-awesome/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular) format("svg");
     font-weight: 400;
     font-style: normal;
 }
