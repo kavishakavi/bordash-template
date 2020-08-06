@@ -7162,12 +7162,12 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
-body.error-page img {
+.body.error-page img {
     width: 50%;
     display: table;
     margin: 50px auto;
 }
-body.error-page .display-1 {
+.body.error-page .display-1 {
     font-size: 10em;
 }
 .error-page {
@@ -7702,50 +7702,50 @@ textarea {
     border-top: 1px solid #ebebeb;
 }
 .app-block .app-content .app-action .card-body,
-.card .card-body,
-.chat-block .card-body {
+.card .card-.body,
+.chat-block .card-.body {
     padding: 1.5rem;
 }
-.app-block .app-content .app-action .card-body h1.card-title,
-.app-block .app-content .app-action .card-body h2.card-title,
-.app-block .app-content .app-action .card-body h3.card-title,
-.app-block .app-content .app-action .card-body h4.card-title,
-.app-block .app-content .app-action .card-body h5.card-title,
-.app-block .app-content .app-action .card-body h6.card-title,
-.card .card-body h1.card-title,
-.card .card-body h2.card-title,
-.card .card-body h3.card-title,
-.card .card-body h4.card-title,
-.card .card-body h5.card-title,
-.card .card-body h6.card-title,
-.chat-block .card-body h1.card-title,
-.chat-block .card-body h2.card-title,
+.app-block .app-content .app-action .card-.body h1.card-title,
+.app-block .app-content .app-action .card-.body h2.card-title,
+.app-block .app-content .app-action .card-.body h3.card-title,
+.app-block .app-content .app-action .card-.body h4.card-title,
+.app-block .app-content .app-action .card-.body h5.card-title,
+.app-block .app-content .app-action .card-.body h6.card-title,
+.card .card-.body h1.card-title,
+.card .card-.body h2.card-title,
+.card .card-.body h3.card-title,
+.card .card-.body h4.card-title,
+.card .card-.body h5.card-title,
+.card .card-.body h6.card-title,
+.chat-block .card-.body h1.card-title,
+.chat-block .card-.body h2.card-title,
 .chat-block .card-body h3.card-title,
-.chat-block .card-body h4.card-title,
-.chat-block .card-body h5.card-title,
-.chat-block .card-body h6.card-title {
+.chat-block .card-.body h4.card-title,
+.chat-block .card-.body h5.card-title,
+.chat-block .card-.body h6.card-title {
     margin-bottom: 2rem;
     font-size: 1rem;
     font-weight: 400;
 }
-.app-block .app-content .app-action .card-body h1.card-title .dropdown *,
-.app-block .app-content .app-action .card-body h2.card-title .dropdown *,
-.app-block .app-content .app-action .card-body h3.card-title .dropdown *,
-.app-block .app-content .app-action .card-body h4.card-title .dropdown *,
-.app-block .app-content .app-action .card-body h5.card-title .dropdown *,
-.app-block .app-content .app-action .card-body h6.card-title .dropdown *,
-.card .card-body h1.card-title .dropdown *,
-.card .card-body h2.card-title .dropdown *,
-.card .card-body h3.card-title .dropdown *,
-.card .card-body h4.card-title .dropdown *,
-.card .card-body h5.card-title .dropdown *,
-.card .card-body h6.card-title .dropdown *,
-.chat-block .card-body h1.card-title .dropdown *,
-.chat-block .card-body h2.card-title .dropdown *,
-.chat-block .card-body h3.card-title .dropdown *,
-.chat-block .card-body h4.card-title .dropdown *,
-.chat-block .card-body h5.card-title .dropdown *,
-.chat-block .card-body h6.card-title .dropdown * {
+.app-block .app-content .app-action .card-.body h1.card-title .dropdown *,
+.app-block .app-content .app-action .card-.body h2.card-title .dropdown *,
+.app-block .app-content .app-action .card-.body h3.card-title .dropdown *,
+.app-block .app-content .app-action .card-.body h4.card-title .dropdown *,
+.app-block .app-content .app-action .card-.body h5.card-title .dropdown *,
+.app-block .app-content .app-action .card-.body h6.card-title .dropdown *,
+.card .card-.body h1.card-title .dropdown *,
+.card .card-.body h2.card-title .dropdown *,
+.card .card-.body h3.card-title .dropdown *,
+.card .card-.body h4.card-title .dropdown *,
+.card .card-.body h5.card-title .dropdown *,
+.card .card-.body h6.card-title .dropdown *,
+.chat-block .card-.body h1.card-title .dropdown *,
+.chat-block .card-.body h2.card-title .dropdown *,
+.chat-block .card-.body h3.card-title .dropdown *,
+.chat-block .card-.body h4.card-title .dropdown *,
+.chat-block .card-.body h5.card-title .dropdown *,
+.chat-block .card-.body h6.card-title .dropdown * {
     letter-spacing: normal;
     text-transform: none;
 }
@@ -8057,7 +8057,7 @@ textarea {
 .text-info {
     color: #33b5e5 !important;
 }
-.app-block .app-content .app-content-body .app-lists ul.list-group li.list-group-item.active.task-list .app-list-title,
+.app-block .app-content .app-content-.body .app-lists ul.list-group li.list-group-item.active.task-list .app-list-title,
 .text-success {
     color: #00c851 !important;
 }
@@ -8112,14 +8112,14 @@ textarea {
 .colorpicker.colorpicker-hidden {
     display: none !important;
 }
-body {
+.body {
     font-family: Inter, sans-serif;
     position: relative;
     background: #f1f2f7;
     font-size: 0.835rem;
     color: #505050;
 }
-body.no-scroll {
+.body.no-scroll {
     overflow: hidden;
 }
 ul:not(.list-unstyled) {
@@ -10167,7 +10167,7 @@ a.btn:hover[href="#previous"] {
     padding: 10px 20px;
     border-bottom: 1px solid #f0f0f0;
 }
-.dropdown-body {
+.dropdown-.body {
     padding: 10px 20px;
 }
 .dropdown-menu {
@@ -10185,7 +10185,7 @@ a.btn:hover[href="#previous"] {
     padding: 0;
     width: 300px;
 }
-.dropdown-menu .dropdown-menu-body {
+.dropdown-menu .dropdown-menu-.body {
     max-height: 400px;
     overflow: auto;
 }
@@ -10354,7 +10354,7 @@ table .dropdown {
 .header form .input-group .input-group-append .accordion.custom-accordion .accordion-row button.accordion-header.btn:hover {
     color: #1565c0;
 }
-.accordion.custom-accordion .accordion-row .accordion-body {
+.accordion.custom-accordion .accordion-row .accordion-.body {
     display: none;
     padding: 10px 20px;
 }
@@ -10379,7 +10379,7 @@ table .dropdown {
 .header form .input-group .input-group-append .accordion.custom-accordion .accordion-row.open button.accordion-header.btn .accordion-status-icon.close {
     display: none;
 }
-.accordion.custom-accordion .accordion-row.open .accordion-body {
+.accordion.custom-accordion .accordion-row.open .accordion-.body {
     display: block;
 }
 .accordion.custom-accordion .accordion-row:first-child .chat-block .chat-sidebar .chat-sidebar-content .list-group .accordion-header.list-group-item.active,
@@ -10552,7 +10552,7 @@ table .dropdown {
 .nicescroll-cursors {
     border: none !important;
 }
-body:not(.dark) .nicescroll-cursors {
+.body:not(.dark) .nicescroll-cursors {
     background-color: rgba(41, 49, 52, 0.2) !important;
     width: 3px !important;
 }
@@ -10832,14 +10832,14 @@ body:not(.dark) .nicescroll-cursors {
     height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
 }
-body.modal-open .modal.fade .modal-dialog {
+.body.modal-open .modal.fade .modal-dialog {
     -webkit-transform: translate(0, 0) scale(0.9);
     -moz-transform: translate(0, 0) scale(0.9);
     -ms-transform: translate(0, 0) scale(0.9);
     -o-transform: translate(0, 0) scale(0.9);
     transform: translate(0, 0) scale(0.9);
 }
-body.modal-open .modal.show .modal-dialog {
+.body.modal-open .modal.show .modal-dialog {
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
     -ms-transform: translate(0, 0) scale(1);
@@ -10909,7 +10909,7 @@ body.modal-open .modal.show .modal-dialog {
 .modal .modal-dialog .modal-content .modal-header button.close > * {
     font-size: initial;
 }
-.modal .modal-dialog .modal-content .modal-body {
+.modal .modal-dialog .modal-content .modal-.body {
     padding: 1.5rem;
 }
 .modal .modal-dialog .modal-content .modal-footer {
@@ -11233,10 +11233,10 @@ body.modal-open .modal.show .modal-dialog {
 .user-page .chat-block {
     width: 500px;
 }
-.app-block .app-content .user-page .app-action .card-body,
-.user-page .app-block .app-content .app-action .card-body,
-.user-page .card .card-body,
-.user-page .chat-block .card-body {
+.app-block .app-content .user-page .app-action .card-.body,
+.user-page .app-block .app-content .app-action .card-.body,
+.user-page .card .card-.body,
+.user-page .chat-block .card-.body {
     padding: 50px;
 }
 .chat-block {
@@ -11964,9 +11964,9 @@ button.toast-close-button {
     height: 100%;
     margin-bottom: 0;
 }
-.app-block .app-content .app-sidebar > .app-action .card-body,
-.app-block .app-sidebar > .card .card-body,
-.app-block .app-sidebar > .chat-block .card-body {
+.app-block .app-content .app-sidebar > .app-action .card-.body,
+.app-block .app-sidebar > .card .card-.body,
+.app-block .app-sidebar > .chat-block .card-.body {
     -webkit-box-flex: 0;
     -webkit-flex: none;
     -moz-box-flex: 0;
@@ -12069,7 +12069,7 @@ button.toast-close-button {
     -ms-flex: 1;
     flex: 1;
 }
-.app-block .app-content .app-content-body {
+.app-block .app-content .app-content-.body {
     margin-bottom: 0;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -12081,11 +12081,11 @@ button.toast-close-button {
     position: static;
     overflow: hidden;
 }
-.app-block .app-content .app-content-body .app-lists {
+.app-block .app-content .app-content-.body .app-lists {
     height: 100%;
     overflow: auto;
 }
-.app-block .app-content .app-content-body .app-lists ul.list-group li.list-group-item {
+.app-block .app-content .app-content-.body .app-lists ul.list-group li.list-group-item {
     padding-top: 15px;
     padding-bottom: 15px;
     background: 0 0;
@@ -12100,23 +12100,23 @@ button.toast-close-button {
     -ms-flex-align: center;
     align-items: center;
 }
-.app-block .app-content .app-content-body .app-lists ul.list-group li.list-group-item:hover {
+.app-block .app-content .app-content-.body .app-lists ul.list-group li.list-group-item:hover {
     cursor: pointer;
     background-color: #fafafa;
 }
-.app-block .app-content .app-content-body .app-lists ul.list-group li.list-group-item.active {
+.app-block .app-content .app-content-.body .app-lists ul.list-group li.list-group-item.active {
     background-color: #ebebeb;
 }
-.app-block .app-content .app-content-body .app-lists ul.list-group li.list-group-item.active .avatar {
+.app-block .app-content .app-content-.body .app-lists ul.list-group li.list-group-item.active .avatar {
     border-color: #ebebeb;
 }
-.app-block .app-content .app-content-body .app-lists ul.list-group li.list-group-item.active .app-list-title {
+.app-block .app-content .app-content-.body .app-lists ul.list-group li.list-group-item.active .app-list-title {
     color: #000;
 }
-.app-block .app-content .app-content-body .app-lists ul.list-group li.list-group-item.active.task-list .app-list-title {
+.app-block .app-content .app-content-.body .app-lists ul.list-group li.list-group-item.active.task-list .app-list-title {
     text-decoration: line-through;
 }
-.app-block .app-content .app-content-body .app-detail {
+.app-block .app-content .app-content-.body .app-detail {
     margin-bottom: 0;
     position: absolute;
     right: 0.9rem;
@@ -12131,12 +12131,12 @@ button.toast-close-button {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-.app-block .app-content .app-content-body .app-detail.show {
+.app-block .app-content .app-content-.body .app-detail.show {
     opacity: 1;
     visibility: visible;
     top: 0;
 }
-.app-block .app-content .app-content-body .app-detail .card-header {
+.app-block .app-content .app-content-.body .app-detail .card-header {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -12150,14 +12150,14 @@ button.toast-close-button {
     padding: 1.5rem;
     border-bottom: 1px solid #ebebeb;
 }
-.app-block .app-content .app-content-body .app-detail .card-header .app-detail-action-left {
+.app-block .app-content .app-content-.body .app-detail .card-header .app-detail-action-left {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
 }
-.app-block .app-content .app-content-body .app-detail .card-header .app-detail-action-right {
+.app-block .app-content .app-content-.body .app-detail .card-header .app-detail-action-right {
     margin-left: auto;
 }
 #compose .ql-toolbar.ql-snow,
@@ -12191,7 +12191,7 @@ button.toast-close-button {
 .app-file-list:hover {
     border-color: #d7d7d7;
 }
-body:not(.stretch-layout) .app-block .app-content .app-content-body {
+.body:not(.stretch-layout) .app-block .app-content .app-content-body {
     overflow: visible;
 }
 .demo-icon-list {
@@ -12345,33 +12345,33 @@ body:not(.stretch-layout) .app-block .app-content .app-content-body {
         }
     }
 }
-body.stretch-layout:not(.small-navigation) {
+.body.stretch-layout:not(.small-navigation) {
     overflow: hidden;
 }
-body.stretch-layout.navigation-toggle-one footer {
+.body.stretch-layout.navigation-toggle-one footer {
     left: 95px !important;
 }
-body.stretch-layout.navigation-toggle-two footer {
+.body.stretch-layout.navigation-toggle-two footer {
     left: 20px !important;
 }
-body.stretch-layout .main-content {
+.body.stretch-layout .main-content {
     height: -webkit-calc(100vh - 70px);
     height: -moz-calc(100vh - 70px);
     height: calc(100vh - 70px);
 }
-body.stretch-layout .header {
+.body.stretch-layout .header {
     -webkit-box-shadow: 0 3px 10px rgba(62, 85, 120, 0.07);
     -moz-box-shadow: 0 3px 10px rgba(62, 85, 120, 0.07);
     box-shadow: 0 3px 10px rgba(62, 85, 120, 0.07);
 }
 @media (min-width: 1200px) {
-    body.navigation-toggle-one .navigation {
+    .body.navigation-toggle-one .navigation {
         width: 75px;
     }
-    body.navigation-toggle-one .navigation .navigation-menu-body {
+    .body.navigation-toggle-one .navigation .navigation-menu-.body {
         display: none;
     }
-    body.navigation-toggle-one.navigation-show .navigation .navigation-menu-body {
+    .body.navigation-toggle-one.navigation-show .navigation .navigation-menu-.body {
         display: block;
         position: absolute;
         background: #fff;
@@ -12383,10 +12383,10 @@ body.stretch-layout .header {
         -moz-box-shadow: 0 3px 10px rgba(62, 85, 120, 0.21);
         box-shadow: 0 3px 10px rgba(62, 85, 120, 0.21);
     }
-    body.navigation-toggle-one .header {
+    .body.navigation-toggle-one .header {
         margin-left: 75px;
     }
-    body.navigation-toggle-one #main .main-content {
+    .body.navigation-toggle-one #main .main-content {
         padding-left: 95px;
         -webkit-box-flex: 1;
         -webkit-flex: 1;
@@ -12397,19 +12397,19 @@ body.stretch-layout .header {
         width: -moz-calc(100% - 75px);
         width: calc(100% - 75px);
     }
-    body.navigation-toggle-two .navigation {
+    .body.navigation-toggle-two .navigation {
         display: none;
     }
-    body.navigation-toggle-two .header {
+    .body.navigation-toggle-two .header {
         margin-left: 0;
     }
-    body.navigation-toggle-two .header .navigation-toggler {
+    .body.navigation-toggle-two .header .navigation-toggler {
         display: none !important;
     }
-    body.navigation-toggle-two .header .navigation-toggler.mobile-toggler {
+    .body.navigation-toggle-two .header .navigation-toggler.mobile-toggler {
         display: block !important;
     }
-    body.navigation-toggle-two #main .main-content {
+    .body.navigation-toggle-two #main .main-content {
         padding-left: 20px;
         -webkit-box-flex: 1;
         -webkit-flex: 1;
@@ -12418,16 +12418,16 @@ body.stretch-layout .header {
         flex: 1;
         width: 100%;
     }
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .header {
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .header {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
     }
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) #main footer {
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) #main footer {
         left: 105px;
         right: 30px;
     }
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation {
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation {
         position: fixed;
         left: 0;
         top: 70px;
@@ -12510,7 +12510,7 @@ body.stretch-layout .header {
         padding-right: 0;
         margin-top: 0;
     }
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.navigation-divider:after {
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.navigation-divider:after {
         width: 100%;
         content: "";
         display: block;
@@ -12525,7 +12525,7 @@ body.stretch-layout .header {
         form
         .input-group
         .input-group-append
-        body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+        .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12538,7 +12538,7 @@ body.stretch-layout .header {
         .chat-sidebar
         .chat-sidebar-content
         .list-group
-        body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+        .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12555,7 +12555,7 @@ body.stretch-layout .header {
         .chat-sidebar
         .chat-sidebar-content
         .list-group
-        body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+        .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12572,7 +12572,7 @@ body.stretch-layout .header {
         .chat-sidebar
         .chat-sidebar-content
         .list-group
-        body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+        .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12591,7 +12591,7 @@ body.stretch-layout .header {
         .chat-sidebar
         .chat-sidebar-content
         .list-group
-        body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+        .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12622,7 +12622,7 @@ body.stretch-layout .header {
         form
         .input-group
         .input-group-append
-        body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+        .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12637,7 +12637,7 @@ body.stretch-layout .header {
         > .list-group-item.active,
     .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open > button.btn + ul li.open > a,
     .header form .input-group .input-group-append body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open > button.btn + ul li.open > button.btn,
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12654,7 +12654,7 @@ body.stretch-layout .header {
         .input-group-append
         li.open
         > button.btn,
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
         ul
@@ -12667,7 +12667,7 @@ body.stretch-layout .header {
         + ul
         li.open
         > .list-group-item.active,
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open > .list-group-item.active + ul li.open > a,
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul .chat-block .chat-sidebar .chat-sidebar-content .list-group li.open > .list-group-item.active + ul li.open > a,
     body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation)
         .navigation
         .navigation-menu-body
@@ -12693,10 +12693,10 @@ body.stretch-layout .header {
         background: 0 0;
         color: #1565c0;
     }
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open > ul {
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body ul li.open > ul {
         display: none;
     }
-    body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body > ul > li:not(.navigation-divider) {
+    .body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body > ul > li:not(.navigation-divider) {
         padding: 0 15px;
     }
     .chat-block .chat-sidebar .chat-sidebar-content .list-group body.small-navigation:not(.hidden-navigation):not(.horizontal-navigation) .navigation .navigation-menu-body > ul > li > .list-group-item.active,

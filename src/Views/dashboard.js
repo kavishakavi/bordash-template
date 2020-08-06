@@ -704,7 +704,7 @@ export class dashboard extends Component {
                                     <li className="open">
                                         <Link to="#">Basic</Link>
                                         <ul>
-                                            <li><Link to="alerts.html">Alert</Link></li>
+                                            <li><Link to="/alert">Alert</Link></li>
                                             <li><Link to="accordion.html">Accordion</Link></li>
                                             <li><Link to="buttons.html">Buttons</Link></li>
                                             <li><Link to="dropdown.html">Dropdown</Link></li>

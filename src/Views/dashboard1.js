@@ -9,27 +9,26 @@ import Tabs from '../components/Navigation/Tabs'
 import FillAndjustify from '../components/Navigation/FillAndjustify'
 import TabwithDropdown from '../components/Navigation/TabwithDropdown'
 import PillsWithDropdown from '../components/Navigation/PillsWithDropdown'
-import Footer from '../components/Footer'
+import Footer from './Footer'
 import TopNavFirst from '../components/Navigation/TopNavFirst'
-import Main from '../components/main'
-
+import Main from './main'
+import { Route, Router } from 'react-router-dom'
+import Alert from '../Views/alert'
+import Accordian from '../Views/accordion'
+import { BrowserRouter,Switch } from "react-router-dom";
 export default function dashboard1() {
     return (  
       <div>   
-      <TopNavLeft /> 
-      <TopNavFirst />               
-    <Main />
-  
-      <BaseNav />
-      <HorizontalAlignment />
-      <Vertical />
-      <Tabs />
-    <Pills />
-    <FillAndjustify />
-    <TabwithDropdown />
-    <PillsWithDropdown />
-    <Footer />
-</div>
+      <TopNavLeft />                     
+      <Main />     
+     
+      <Switch>   
+      <Route path='/alert' component={Alert} />
+      <Route path="/accordian"><Accordian /></Route>
+      </Switch>
+     
+      <Footer />     
+   </div>
    
     )
 }
