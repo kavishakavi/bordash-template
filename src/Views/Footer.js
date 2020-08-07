@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
-        <div>
-            <main>
+        
+            
             <footer>
                 <div className="container-fluid">
                     <div>© 2019 Protable v1.0.0 Made by <Link to="http://laborasyon.com/">Laborasyon</Link></div>
@@ -16,11 +16,10 @@ function Footer() {
                         </nav>
                     </div>
                 </div>
-            </footer>
-   
+            </footer>  
     
-        </main>
-        </div>
+        
+        
        
     )
 }

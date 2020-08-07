@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch,useRouteMatch } from "react-router-dom";
 import Login from './Views/login'
 import Register from './Views/register'
 import ForgotPassword from './Views/forgotPassword'
-import Main from './Views/main'
+import Dashboard from './Views/dashboard'
 
 import './assets/styles/app.css'
 import './assets/styles/bundle.css'
@@ -16,9 +16,9 @@ export default function App() {
       <Switch>
         <Route exact path="/login"><Login /></Route>
         <Route exact path="/register"><Register /></Route>
-        <Route exact path="/forgot-password"><ForgotPassword /></Route>
-        <Route exact path="/main"><Main /></Route>
-        <Route exact path="/"><Login /></Route>
+        <Route exact path="/forgot-password"><ForgotPassword /></Route>        
+        <Route  path="/dashboard"><Dashboard /></Route>        
+        <Route  path="/"><Login /></Route>
       </Switch>
     </BrowserRouter>
   );

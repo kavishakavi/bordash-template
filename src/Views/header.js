@@ -28,7 +28,7 @@ function header() {
               
     
                 <li className="nav-item">
-                    <Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Create</Link>
+                    <Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown"aria-expanded="false">Create</Link>
                     <div className="dropdown-menu">
                         <Link to="#" className="dropdown-item">User</Link>
                         <Link to="#" className="dropdown-item">Category</Link>
